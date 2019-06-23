@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../Medi/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    /* padding:10px; */
+    text-align: center;
+    margin-top: 20%;
+}
+#guessedNumber{
+    height: 40px;
+    width: 250px;
+    margin: 0 auto;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.808);
+    width: 600px;
+    padding: 45px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media only screen and (max-width:990px) {
+    body{
+        background-image: url(../Medi/mobile.png);
+        background-size: cover !important;
+        width: 100vw;
+        height: 100vh;
+    }
+    .main{
+        margin-top: 40%;
+    }
+    #guessedNumber{
+        width: auto;
+    }
+    .box{
+        width: auto;
+    }
+}
+@media only screen and (max-width:479px) {
+    body{
+        background-image: url(../Medi/mobile.png);
+        background-size: cover !important;
+        width: 100vw;
+        height: 100;
+    }
+    .main{
+        margin-top: 40%;
+    }
+    .box{
+        width: auto;
+    }
+    #guessedNumber{
+        width: auto;
+    }
+}
