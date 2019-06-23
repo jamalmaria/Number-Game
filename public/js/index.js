@@ -8,7 +8,7 @@ function check(){
         document.body.style.background= "none";
         document.body.style.backgroundColor= "green";
         message.innerHTML = `<p style = 'color: green;'>Hey You Have Guessed It Right!</p>`;
-        randomNumber = Math.floor(Math.random() * 101);
+        randomNumber = Math.floor(Math.random() * 11);
        console.log(randomNumber);
         // hide()
         
