@@ -10,7 +10,7 @@ function check(){
         message.innerHTML = `<p style = 'color: green;'>Hey You Have Guessed It Right!</p>`;
         randomNumber = Math.floor(Math.random() * 11);
        console.log(randomNumber);
-        hide()
+        // hide()
         
     }else if(input > randomNumber){
         document.body.style.background= "none";
